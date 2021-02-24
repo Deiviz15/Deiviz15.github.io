@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<main>
+    <div class="header-img" id="Pricing"></div>
+</main>
+
+<div id="navbar">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="services.html">Services</a>
+    <a class="active" href="pricing.html">Pricing</a>
+    <a href="contact.html">Contact</a>
+
+</div>
+    <h3>Pricing</h3>
+<div class="two-column">
+    <div>
+    <h4>Diagnostics:</h4>
+        <ul>
+        <li>Diesel: 5€</li>
+        <li>Petrol: 4€</li>    
+        </ul>
+    <h4>Coding:</h4>
+        <ul>
+            <li>One feature: 5€</li>
+            <li>Two or more: 7.5€</li>
+        </ul>
+    <h4> Packages:</h4>
+        <ul>
+            <li>Diagnostics + One feature: 7.5€</li>
+            <li>Diagnostics + More features: 10€</li>
+            </ul>
+    </div>
+    <div>
+    <img src="card.jpg"> 
+    </div>
+  
+</div>
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+<footer>
+    <p style="text-align:left;">© 2020 Klaipėda
+  <span style="float:center;">Contact: +37067379788</span>
+  <span style="float:right;">Address: Kretingos g. 48, Klaipėda</span>
+  </p>
+</footer>
+</body>
+</html>

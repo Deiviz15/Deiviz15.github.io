@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<main>
+    <div class="header-img" id="Services" ></div>
+</main>
+
+<div id="navbar">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a class="active" href="services.html">Services</a>
+    <a href="pricing.html">Pricing</a>
+    <a href="contact.html">Contact</a>
+
+</div>
+    <h3>Services</h3>
+<div class="two-column">
+    <div>
+  <p> Car diagnostics: detecting problems by scanning for faults, checking live parameters for abnormal engine activity, and providing possible solutions to eliminate those problems.</p>
+<p> Car customizing – coding. Enabling or disabling additional car features which are turned off by default from the factory. For example, Daytime Running Lights, US-style corner lights, Comfort locking, changing Service interval, and much more. </p>
+    </div>
+    <div>
+    <img src="dashboard.jpg"> 
+    </div>
+  
+</div>
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+<footer>
+    <p style="text-align:left;">© 2020 Klaipėda
+  <span style="float:center;">Contact: +37067379788</span>
+  <span style="float:right;">Address: Kretingos g. 48, Klaipėda</span>
+  </p>
+</footer>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<main>
+    <div class="header-img" id="About"></div>
+</main>
+
+<div id="navbar">
+    <a href="index.html">Home</a>
+    <a class="active" href="about.html">About</a>
+    <a href="services.html">Services</a>
+    <a href="pricing.html">Pricing</a>
+    <a href="contact.html">Contact</a>
+
+</div>
+    <h3>About</h3>
+<div class="two-column">
+    <div>
+  <p> In Lithuania, every second person has his or her own car. Furthermore, BMW stays in the top 3 best-selling car brands in the second-hand market. It is crucial to check the vehicle before buying and maintain it during the ownership as well. The most effective way to check the car’s overall health is by checking it with special computer equipment. </p>
+    </div>
+    <div>
+    <img src="photo.jpg"> 
+    </div>
+  
+</div>
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+<footer>
+    <p style="text-align:left;">© 2020 Klaipėda
+  <span style="float:center;">Contact: +37067379788</span>
+  <span style="float:right;">Address: Kretingos g. 48, Klaipėda</span>
+  </p>
+</footer>
+</body>
+</html>

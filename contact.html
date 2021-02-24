@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<main>
+    <div class="header-img" id="Contact"></div>
+</main>
+
+<div id="navbar">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="services.html">Services</a>
+    <a href="pricing.html">Pricing</a>
+    <a class="active" href="contact.html">Contacts</a>
+
+</div>
+    <h3 id="h3c">I will help you to make your daily drive fantastic.</h3>
+<div class="two-column">
+    <div>
+    <h4>Contact me:</h4>
+        <ul>
+        <li>Phone: +37067379788</li>
+        <li>E-mail: baltrimas4011@gmail.com</li> 
+	<li>Address: Kretingos g. 48, Klaipėda</li>   
+        </ul>
+    <h4>Social media:</h4>
+        <ul>
+            <li><a href="https://www.facebook.com/Deiviz15">Facebook</a></li>
+	    <li><a href="https://www.instagram.com/profile/kickbox_on_fire">Instagram</a></li>
+        </ul>
+    </div>
+    <div>
+    <img src="BMW.jpg"> 
+    </div>
+  
+</div>
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+<footer>
+    <p style="text-align:left;">© 2020 Klaipėda
+  <span style="float:center;">Contact: +37067379788</span>
+  <span style="float:right;">Address: Kretingos g. 48, Klaipėda</span>
+  </p>
+</footer>
+</body>
+</html>

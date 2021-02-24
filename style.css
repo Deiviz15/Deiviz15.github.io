@@ -1,0 +1,133 @@
+body {
+  margin: 0;
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.header-img {
+  width: 100%;
+  height: 400px;
+  background: url(e21zjz.jpg);
+  background-size: cover;
+}
+#About {
+  background: url(e30cover.jpg);
+  background-size: cover;
+}
+#Services {
+  background: url(e361.jpg);
+  background-size: cover;
+}
+#Pricing  {
+background: url(e46.jpg);
+background-size: cover;
+}
+#Contact {
+background: url(e92.jpg);
+background-size: cover;
+}
+
+
+#navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 100px;
+  text-decoration: none;
+  font-size: 17px;
+}
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+#navbar a.active {
+  background-color: #0066b1;
+  color: white;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.sticky + .content {
+  padding-top: 60px;
+}
+
+.content {
+  padding: 0px;
+}
+
+h3 {padding-left: 170px;
+    text-align: left;
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: -0.5em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+#h3c{
+    padding-left: 60px;
+}
+h4 {
+    display: block;
+    margin-block-start: 0em;
+    margin-block-end: 0.5em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 0em;
+    margin-block-end: 0.5em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.two-column{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 40px;
+}
+.two-column div{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+p {
+    display: grid;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-indent: 4%;
+}
+img {
+  object-fit: contain;
+  width: 571px;
+  height: 300px;
+}
+
+footer {
+    background: #333;
+    height: 35px;
+    width: 100%;
+    bottom: 0px;
+    left: 0px;
+    padding: 5px 0 5px 0;
+}
+footer p {
+    font-family: 'Questrial', sans-serif;
+    font-size: 13px;
+    text-align: center;
+    color: #f1f0ee;
+    display: flex;
+    justify-content: space-evenly;
+}

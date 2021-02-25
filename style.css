@@ -6,23 +6,23 @@ body {
 .header-img {
   width: 100%;
   height: 400px;
-  background: url(e21zjz.jpg);
+  background: url(cover/e21.jpg);
   background-size: cover;
 }
 #About {
-  background: url(e30cover.jpg);
+  background: url(cover/e30.jpg);
   background-size: cover;
 }
 #Services {
-  background: url(e361.jpg);
+  background: url(cover/e36.jpg);
   background-size: cover;
 }
 #Pricing  {
-background: url(e46.jpg);
+background: url(cover/e46.jpg);
 background-size: cover;
 }
 #Contact {
-background: url(e92.jpg);
+background: url(cover/e92.jpg);
 background-size: cover;
 }
 
@@ -91,7 +91,13 @@ ul {
     margin-inline-end: 0px;
     padding-inline-start: 40px;
 }
-
+ul img {
+		height: 50px;
+		width: 50px;
+}
+ul #horizontal li {
+	display: inline;
+}
 .two-column{
     display: grid;
     grid-template-columns: 50% 50%;
